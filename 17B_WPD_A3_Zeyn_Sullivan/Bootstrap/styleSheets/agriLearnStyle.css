@@ -1,0 +1,87 @@
+.headerBar{
+	margin-bottom:10px;
+	min-height: 130px;
+	background-color: silver;
+	text-align: center;
+	font-size: large;
+}
+
+.middleBar{
+	margin-bottom:10px;
+	min-height: 250px;
+	background-color: silver;
+	text-align: center;
+	font-size: large;
+}
+
+.bottomBar{
+	margin-bottom:10px;
+	min-height: 130px;
+	background-color: silver;
+	text-align: center;
+	font-size: large;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #3396FF;
+}
+
+.active > a {
+    color: #3396FF;
+}
+
+.hline { 
+  width:100%; 
+  height:1px; 
+  background: #fff; 
+}
+
+#customBackground   {
+
+  background-image: url("http://localhost/Bootstrap/src/images/dewTomato.jpg"); 
+  /*Full Page Image-www.w3schools.com*/
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #AA0000*/
+}
+
+
+
+.custom-font-color 
+  p { color: white; }
+  h3 { color: green; }
+  a { color: white; }
+
+.custom-carousel-pic {
+  width:100%;
+}
+
+.custom-blog-font
+  p { color: blue; }
+  h1{ color: black; }
+  h2 { color: black;
+       font-size: 24px; }
+  h4 { color: black; }
+
+.responsive-width{
+  font-size: 3vw;
+}
+
+.image-dimension {
+  width: 150%;
+  height: 100%;
+}
+
+
+.topic {
+  font-size: 30px; 
+  text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+

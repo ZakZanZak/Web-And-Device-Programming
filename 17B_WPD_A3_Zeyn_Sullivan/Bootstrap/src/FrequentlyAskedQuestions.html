@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--A Panel Accordian design is used to render the Frequently Asked Questions.
+    W3Schools was used to assist in coding the Accordian Design-->
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link  rel="stylesheet" href="http://localhost/Bootstrap/styleSheets/agriLearnStyle.css">
+</head>
+<body>
+     <div class="container">
+          <div class="row">
+               <div class="col-xs-12 col-sm-12">
+                    <div class="navbar navbar-default navbar-static-top " >
+                         <div class="container-fluid">        
+                              <button class="navbar-toggle" data-toggle = "collapse" data-target = "
+                                      .navHeaderCollapse">
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                              </button>  
+                              <a class="navbar-brand"><img  src="images/Agrilogo.png" alt="Agri Logo" class="
+                                       img-responsive" width="40" height="20" align="left" >
+                                       <font color="red">Agri Grow</a>  
+                              <div class="collapse navbar-collapse navHeaderCollapse">           
+                                   <ul  class="nav navbar-nav navbar-right">
+                                        <li><a href="http://localhost/Bootstrap/src/index.html">Home</a>
+                                        </li>
+                                        <li><a href="http://localhost/Bootstrap/src/contact.html">Contact</a>
+                                        </li>
+                                        <li><a href="http://localhost/Bootstrap/src/AboutUs.html">About Us
+                                            </a>
+                                        </li>
+                                   </ul >
+                              </div>
+                         </div> 
+                    </div>    
+               </div>        
+          </div>
+    </div>      
+
+    <div class="container">
+         <div class="btn-group btn-group-justified">
+              <a href="http://localhost/Bootstrap/src/learntogarden.html" class="btn btn-info 
+                       responsive-width" role="button">Learn to Cultivate
+              </a>
+              <a href="http://localhost/Bootstrap/src/videoOfTheWeek.html" class="btn btn-info 
+                      responsive-width" role="button">Video of The Week
+              </a>
+              <a href="http://localhost/Bootstrap/src/FrequentlyAskedQuestions.html" class="btn btn-info 
+                       responsive-width" role="button">FAQ
+              </a>
+         </div> 
+  <!--Questions sourced from https://home.howstuffworks.com/gardening/garden-design/
+      gardening-questions-answered2.htm-->
+        <h2>Frequently Asked Questions</h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                     <h4 class="panel-title">
+                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Q: I have 
+                            several large patio containers of trees and shrubs growing with mixed annuals. How do I overwinter these containers?
+                         </a>
+                     </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">A: Remove the annuals from the containers at the end of the  
+                         season. Move the containers to a location protected from the warming sun and winter wind. Insulate the soil with mulch -- compost, bark, or leaves -- and make sure the containers receive adequate water during dry spells. Try planting some spring flowering bulbs in place of the annuals to enjoy some early season color.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Q: I have 
+                             trouble growing flowers in my shade garden. Are there any colorful shade-tolerant plants that I can use?
+                          </a>
+                      </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                      <div class="panel-body">A: Aside from using perennials with some bloom, and contrasting
+                           color and texture, a few annuals will thrive in the shade given proper moisture and nutrients. The most shade-tolerant annuals that add color all season are coleus (grown for colorful foliage), wax begonias, and impatiens, which are available in a host of colors. Depending on the depth of shade, still other annuals, such as ageratum, sapphire flower, caladiums, and sweet alyssum, may be successful.
+                     </div>
+                  </div>
+            </div>      
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Q: Is it  
+                             possible to save any of my annuals through the winter for next year's plantings?
+                          </a>
+                      </h4>
+                 </div>
+                 <div id="collapse3" class="panel-collapse collapse">
+                      <div class="panel-body">A: Several types of annuals overwinter well in the house. 
+                           Coleus, geraniums, impatiens, and wax begonias hold nicely as houseplants. Dig up the plant with as much of its root system intact as possible and pot it, using quality potting soil. Cut the plant back by 40 to 50 percent, leaving some foliage on the plant. In the house, provide the plants with as much light as possible, keeping the soil slightly moist.
+                      </div>
+                 </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Q: Do you have 
+                           any suggestions to help encourage children to enjoy gardening?
+                        </a>
+                     </h4>
+                 </div>
+                 <div id="collapse4" class="panel-collapse collapse">
+                      <div class="panel-body">A: Success is the best motivator. Encourage children to have a 
+                           garden space of their own, but work with them to ensure success. Grow plants from large seeds, or use transplants for immediate color. Grow varieties like morning glories and gourds -- quick growing vines which produce abundant flower or fruit -- and colorful zinnias, or balsam. Encourage the child to collect seeds to save for next season. Most of all, go out and enjoy the garden together!
+                      </div>
+                 </div>
+            </div>     
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Q: Which type 
+                             of pruning shears is best?
+                          </a>
+                      </h4>
+                 </div>
+                 <div id="collapse5" class="panel-collapse collapse">
+                      <div class="panel-body">A: There are basically two types of pruning shears: anvil and 
+                           scissors. A good quality pair of shears should last many years. An advantage the scissors type has over the anvil is that it won't crush the stem while cutting. Good shears can be taken apart for sharpening, and replacement parts can be easily obtained for high quality models. Long-handled lopping shears are helpful when thinning shrubs and cutting larger stock than hand pruners can cut.
+                      </div>
+                 </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Q: Although I 
+                             understand the benefits of using compost in the garden, I will probably never be disciplined enough to build and maintain a pile. What can I use instead?
+                          </a>
+                      </h4>
+                 </div>
+                 <div id="collapse6" class="panel-collapse collapse">
+                      <div class="panel-body">A: The successful camellia is probably growing in a 
+                           microclimate that may not exist on your property. A protected microclimate is a good situation to try marginally hardy plant species, since it's protected from extreme daily temperature changes and winter winds. Visit your neighbors' site and try to determine the origin of the unique location -- you may have a site that is equally suitable.
+                      </div>
+                 </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Q: I'm  
+                             looking for a particular cultivar that I can only find through mail order. Is it safe to buy plants from another temperature zone?
+                          </a>
+                      </h4>
+                 </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                     <div class="panel-body">A: If you know the type of plant will grow in your climate, you 
+                          should have no problem -- if it's a spring purchase. If the nursery's zone is warmer than yours, specify a safe ship date for your area. The newly installed plant will have all summer to acclimate to your seasons, and should survive the upcoming winter.
+                     </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Q: There are 
+                             a bewildering number of varieties available of the kind of plant I'm looking for. How do I make a wise decision as to which variety to purchase?
+                          </a>
+                      </h4>
+                 </div>
+                 <div id="collapse8" class="panel-collapse collapse">
+                      <div class="panel-body">A: Sometimes the color of the bloom is the only difference in 
+                           variety, making the choice one of personal preference. Other times the differences are more drastic, such as a resistance to a disease that may be prevalent in your area; and still other times the difference may be in the ultimate height, width, or form of the plant. Read nursery catalogs and talk to garden center salespeople to determine which varieties interest you and best suit your conditions.
+                      </div>
+                 </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Q: What does 
+                             it mean to have "well-drained soil"?
+                           </a>
+                      </h4>
+                 </div>
+                 <div id="collapse9" class="panel-collapse collapse">
+                      <div class="panel-body">A: Although it's necessary for your soil to have water 
+                           available for your plants, too much water held for long periods of time will disturb the balance of air that is necessary for healthy root growth of most plant species. Without air in the soil, many plants will likely drown. Loam, a balance of sand, clay, and organic matter, is usually well-drained. Heavily compacted clay soils are often poorly drained.
+                      </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                 <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Q: Being a 
+                             weekend gardener, I'm not sure I want to spend the energy necessary to double-dig my new perennial bed. What are the advantages?
+                          </a>
+                      </h4>
+                 </div>
+                 <div id="collapse10" class="panel-collapse collapse">
+                      <div class="panel-body">A: Double-digging provides a better quality soil for the deep 
+                           roots that many perennials develop. Remember, perennials are long-lived plants, and the time and effort you use to develop a perfect growing environment is well spent. Imagine your investment withering up a few years after planting because the soil 12 inches under the surface is too compact for the roots to develop properly!
+                      </div>
+                 </div>
+            </div>
+  </div> 
+</body>
+</html>

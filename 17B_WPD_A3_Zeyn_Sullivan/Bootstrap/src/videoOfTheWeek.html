@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link  rel="stylesheet" href="http://localhost/Bootstrap/styleSheets/agriLearnStyle.css">
+  <script type="text/javascript" src="javaScript/agriGrowJavaScript.js"> 
+  </script>
+
+</head>
+<body background="images/fruitVeg.jpg">   
+        <div class="container custom-font-color">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+              
+                          <div class="navbar navbar-default navbar-static-top " >
+                              <div class="container-fluid">
+                                    <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                    </button>                    
+                                    <a class="navbar-brand"><img  src="images/Agrilogo.png" alt="Agri Logo" class="img-responsive" width="40" height="20" align="left" >
+                                      <font color="blue">Agri Grow</a>  
+                                    <div class="collapse navbar-collapse navHeaderCollapse">           
+                                        <ul  class="nav navbar-nav navbar-right">
+                                         
+                                          <li><a href="http://localhost/Bootstrap/src/index.html">Home</a></li>
+                                          <li><a href="http://localhost/Bootstrap/src/contact.html">Contact</a></li>
+                                          <li><a href="http://localhost/Bootstrap/src/aboutUs.html">About Us</a></li>
+                                        </ul>
+                                    </div>
+                              </div> 
+                            </div>    
+                    </div>   
+
+      
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 blog-main">
+           <div class="customBackground">
+                <div class="btn-group btn-group-justified">
+                 <a href="http://localhost/Bootstrap/src/learntogarden.html" class="btn btn-info responsive-width" role="button">Learn to Cultivate</a>
+                 <a href="http://localhost/Bootstrap/src/videoOfTheWeek.html" class="btn btn-info responsive-width" role="button">Video of The Week</a>
+                 <a href="http://localhost/Bootstrap/src/FrequentlyAskedQuestions.html" class="btn btn-info responsive-width"  role="button">FAQ</a>
+                </div> 
+                <div style="text-align:center"> 
+                    <button onclick="playPause()">Play/Pause</button> 
+                    <button onclick="makeBig()">Big Screen</button>
+                    <button onclick="makeSmall()">Small Screen</button>
+                    <button onclick="makeNormal()">Normal Screen</button>
+                    <br><br>
+                    <video id="video1" width="420" controls>
+                        <source src="videos/planting-onions.mp4" type="video/mp4">
+                        <source src="videos/planting-onions.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div> 
+            </div>
+        </div>
+      </div>    
+     </main>   
+
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Daily Camera</a>.</p>
+</body> 
+</html>
